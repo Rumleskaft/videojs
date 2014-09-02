@@ -1,0 +1,13 @@
+.video-js.vjs-default-skin.vjs-paused .vjs-big-play-button {display:block !important;}
+
+
+.vjs-default-skin .vjs-big-play-button{
+  margin: 20% 40% 20% 40%;
+  border-width: 0;
+ }
+
+.vjs-default-skin:hover .vjs-big-play-button, .vjs-default-skin .vjs-big-play-button:focus{
+  background-color: none;
+  border-width: 0;
+}
+

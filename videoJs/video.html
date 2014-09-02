@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"> </script>
+	<link href="/Users/DanielBG/Documents/pfa-conductor-frontend/videoJs/video-js/video-js.css" rel="stylesheet">
+	<script src="/Users/DanielBG/Documents/pfa-conductor-frontend/videoJs/video-js/video.js"></script>
+	<script src="/Users/DanielBG/Documents/pfa-conductor-frontend/videoJs/video.js"> </script>
+	<link href="/Users/DanielBG/Documents/pfa-conductor-frontend/videoJs/video.css" rel="stylesheet">
+	<title> Video </title>
+</head>
+<body>
+	<section>
+  		<video id="vid" class="video-js vjs-default-skin vjs-big-player-button"
+		  autoplay controls preload="auto" width="60%" height="400"
+		  data-setup='{}'>
+		 <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'/>
+		</video>
+		<button onclick=changeVid("http://techslides.com/demos/sample-videos/small.mp4")> Change source here </button>
+	</section>
+</body>
+</html>
+
